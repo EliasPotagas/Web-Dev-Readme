@@ -10,4 +10,4 @@ Some projects I have worked one was a course management system for my software e
 I see myself using the skills and techinques taught in this course for post graduation life. We are learning various technologies throughout this 13 week cours, which of course I do not expect to master or learn the intricate details of each technology. But, using the methodology of solving and approaching problems and using various technologies to understand the intricacies that makes them different but similar. I am excited to work on two mobile-first web apps during the semester. 
 
 
-![selfie]["C:\Users\Elias\OneDrive\Desktop\WebDev\selfie.jpg"] 
+![selfie][/WebDev/selfie.jpg "Me"] 
