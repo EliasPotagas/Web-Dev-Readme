@@ -11,4 +11,4 @@ I see myself using the skills and techinques taught in this course for post grad
 
 asdsad
 
-![selfie][selfie.jpg] 
+![selfie](selfie.jpg)
