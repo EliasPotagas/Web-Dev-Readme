@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Menu Example</title>
+        <style>
+            body {
+                font-family: Arial;
+                margin: 0;
+                padding: 0;
+                background-color: rgb(220, 250, 230);
+                font-size: 20px;
+            }
+            nav {
+                background-color: rgb(39, 156, 64);
+                flex-direction: row;
+                display: flex;
+
+            }
+            nav > div:hover, nav > .dropdown-list:focus-within {
+                background-color: rgb(39, 196, 64);
+                position: relative;
+            }
+            h2, label {
+                display: block;
+                margin: 0;
+                padding: 5px 10px;
+                min-width: 90px;
+                font-size: 20px;
+            }
+            nav > div > .dropdown-list {
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                background-color: rgb(39, 196, 64);
+                width: 100%;
+            }
+            nav > div:hover > div, nav > .dropdown-list:focus-within > .dropdown-list {
+                display: inline-flex;
+            }
+            nav a {
+                display: block;
+                padding: 5px 10px;
+                text-decoration: none;
+            }
+            nav a:hover {
+                background-color: rgb(39, 255, 64);
+                text-decoration: underline;
+            }
+            .First-Par {
+                background-color: rgb(255, 255, 255);
+                border-left: 5px solid rgb(39, 196, 64);
+                padding: 15px;
+                margin: 25px;
+
+            }
+            .Second-Par {
+                background-color: rgb(255, 255, 255);
+                border-left: 5px solid rgb(245, 245, 80);
+                padding: 15px;
+                margin: 25px;
+            }
+            .container {
+                max-width: 1300px;
+                margin: 0 auto;
+            }
+            .Edit{
+                font-weight:normal
+            }
+            h3 {
+                margin: 0;
+            }
+        </style>
+    </head>
+<body>
+    <nav>
+        <div>
+            <h2 class="File">File</h2>
+            <div class="dropdown-list">
+                <a href="">New</a>
+                <a href="">open</a>
+                <a href="">Save</a>
+                <a href="">Print</a>
+                <a href="">Close</a>
+            </div>
+        </div>
+        <div>
+            <h2 class="Edit">Edit</h2>
+            <div class="dropdown-list">
+                <a href="">Undo</a>
+                <a href="">Redo</a>
+                <a href="">Cut</a>
+                <a href="">Copy</a>
+                <a href="">Paste</a>
+                <a href="">Delete</a>
+                <a href="">Select All</a>
+            </div>
+        </div>
+        <div>
+            <h2 class="View">View</h2>
+            <div class="dropdown-list">
+                <a href="">Zoom in</a>
+                <a href="">Zoom out</a>
+                <a href="">Actual Size</a>
+                <a href="">Fit Page</a>
+                <a href="">Fit Width</a>
+                <a href="">Fit Height</a>
+                <a href="">Rotate Left</a>
+                <a href="">Rotate Right</a>
+                <a href="">Full screen</a>
+
+            </div>
+        </div>
+    </nav>
+    <div class="section">
+        <div class="container">
+            <div class="First-Par">
+                <h3>Instructions</h3>
+                <p>Recreate this page using <b><i>only CSS</i></b>. Do yourself a favor and 1) Do not view the source. Figure it out yourself. 2) Do not search for the solution. Learn CSS until you know enough to do this.</p>
+            </div>
+            <div class="Second-Par">
+                <h3>Extra Credit</h3>
+                <p>Notice how the Edit menu (besides for not being bold) reacts to clicks. If you click the edit menu, it remains open until you click somewhere else. (This you might need to search for)</p>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
